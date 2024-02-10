@@ -1,0 +1,82 @@
+.welcome-section {
+    background-color: #fff; /* Couleur de fond */
+    padding: 50px 20px; /* Espacement intérieur */
+    margin: auto; /* Centrage horizontal */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre pour ajouter de la profondeur */
+    border-radius: 8px; /* Bords arrondis */
+    max-width: 800px; /* Largeur maximale pour le contrôle du layout */
+}
+
+.welcome-section h1 {
+    margin-bottom: 20px; /* Espacement sous le titre */
+    color: #333; /* Couleur du texte */
+    font-size: 2.5rem; /* Taille du texte */
+}
+
+.welcome-section p {
+    font-size: 1.25rem; /* Taille de la police pour l'adresse et le numéro de téléphone */
+    color: #666; /* Couleur du texte */
+    margin-bottom: 10px; /* Espacement */
+}
+
+.phone-number {
+    font-weight: bold; /* Mettre en gras le numéro de téléphone */
+    color: #007bff; /* Utiliser une couleur distincte pour le numéro de téléphone */
+}
+
+
+
+.service-item, .expert-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Assurez-vous d'ajouter ce CSS dans votre fichier style.css */
+
+.navbar {
+    background-color: #a39c9c; /* Changement de la couleur de fond */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff !important; /* Couleur blanche pour le texte du logo */
+    margin-right: 30px; /* Espace entre le logo et le menu de navigation */
+}
+
+.navbar-nav {
+    list-style-type: none; /* Enlève les puces */
+    padding-left: 0; /* Enlève le padding par défaut */
+    margin: 0; /* Enlève la marge par défaut */
+}
+
+.nav-link {
+    color: #fff !important; /* Couleur blanche pour les liens */
+    padding: 8px 16px; /* Ajoute un peu d'espace autour des liens */
+}
+
+.nav-link:hover {
+    background-color: #3d3c3f; /* Couleur de fond pour le survol */
+}
+
+.navbar-toggler {
+    border: none; /* Enlève la bordure du bouton toggler */
+}
+
+@media (min-width: 992px) { /* Point de rupture pour les grands écrans */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 20px; /* Espace entre les éléments du menu */
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end; /* Alignement des éléments du menu à droite */
+    }
+}
+
+/* Responsive menu toggle button */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
